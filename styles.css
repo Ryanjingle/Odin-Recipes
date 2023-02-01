@@ -88,6 +88,8 @@ a:hover{
 }
 .h2{
     padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px double darkolivegreen;
 }
 .description{
     border: 3px double darkolivegreen;
@@ -110,9 +112,49 @@ a:hover{
     font-size: 14px;
     font-weight: 300;
 }
+.ingredients{
+    border: 3px double darkolivegreen;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.category2{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkolivegreen;
+    text-align: center;
+}
+.category2:hover{
+    color: darksalmon;
+}
+.steps{
+    border: 3px double darkolivegreen;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.category3{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkolivegreen;
+    text-align: center;
+}
+.category3:hover{
+    color: darksalmon;
+}
+.content3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+}
+
 .back-honey{
     display: block;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 35px;
 }
+
+/*Group Selectors for all containers*/
+/*End of Honey.HTML - start of Tilapia.HTML*/
