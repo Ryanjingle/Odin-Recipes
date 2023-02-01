@@ -78,6 +78,8 @@ a:hover{
 
 /*End of Homepage - Start of Pages*/
 
+
+
 .honey-html-img, 
 .tilapia-html-img,
 .sesame-html-img{
@@ -88,6 +90,7 @@ a:hover{
     margin-left:auto;
     margin-right: auto;
 }
+/*Above is an example of grouping, however, we could also just label them all under the same class and it will have the same effect. Just as we did with the other classes.*/
 .page-header{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -101,6 +104,11 @@ a:hover{
     border-radius: 20px;
 }
 .ingredients{
+    border: 3px double darkolivegreen;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.steps{
     border: 3px double darkolivegreen;
     border-radius: 20px;
     margin-top: 15px;
@@ -129,11 +137,6 @@ a:hover{
     padding-right: 20px;
     text-align: center;
 }
-.steps{
-    border: 3px double darkolivegreen;
-    border-radius: 20px;
-    margin-top: 15px;
-}
 .back{
     display: block;
     margin-top: 10px;
@@ -154,7 +157,7 @@ a:hover{
     margin-left:auto;
     margin-right: auto;
     width: 41px;
-
 }
-/*Group Selectors for all containers*/
+/*Page.Headers and H1 can be synonomous as a type selector, don't need two seperate styles*/
+/*Look into chain selectors*/
 /*End of Pages*/
