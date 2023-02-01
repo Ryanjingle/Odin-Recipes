@@ -76,9 +76,11 @@ a:hover{
     font-size: 16px;
 }
 
-/* End of Homepage - Start of Honey.HTML */
+/*End of Homepage - Start of Pages*/
 
-.honey-html-img{
+.honey-html-img, 
+.tilapia-html-img,
+.sesame-html-img{
     display: block;
     width: 800px;
     height: 500px;
@@ -86,7 +88,7 @@ a:hover{
     margin-left:auto;
     margin-right: auto;
 }
-.h2{
+.page-header{
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 3px double darkolivegreen;
@@ -98,63 +100,61 @@ a:hover{
     margin-top: 15px;
     border-radius: 20px;
 }
-.category1{
-    padding:0;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkolivegreen;
-}
-.category1:hover{
-    color: darksalmon;
-}
-.content1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-}
 .ingredients{
     border: 3px double darkolivegreen;
     border-radius: 20px;
     margin-top: 15px;
 }
-.category2{
+.category{
+    padding:0;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkolivegreen;
-    text-align: center;
+    text-align:center;
 }
-.category2:hover{
+.category:hover{
     color: darksalmon;
 }
-.steps{
-    border: 3px double darkolivegreen;
-    border-radius: 20px;
-    margin-top: 15px;
-}
-.category3{
-    font-size: 18px;
+.content{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkolivegreen;
+    font-size: 14px;
+    font-weight: 300;
     text-align: center;
+    padding-right: 20px;
 }
-.category3:hover{
-    color: darksalmon;
-}
-.content3{
+.content-steps{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     padding-left: 30px;
     padding-right: 20px;
     text-align: center;
 }
-
-.back-honey{
+.steps{
+    border: 3px double darkolivegreen;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.back{
     display: block;
     margin-top: 10px;
-    margin-left: auto;
+    margin-left: 600px;
     margin-right: auto;
     width: 35px;
 }
+.next{
+    display: block;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: 600px;
+    width: 35px;
+}
+.home{
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 41px;
 
+}
 /*Group Selectors for all containers*/
-/*End of Honey.HTML - start of Tilapia.HTML*/
+/*End of Pages*/
